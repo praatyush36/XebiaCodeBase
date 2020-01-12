@@ -1,0 +1,58 @@
+// Big Button
+.big-button {
+    background: #8357c5;
+    border: none;
+    border-bottom: .6rem solid darken(#8357c5, 10%);
+    color: white;
+    font-weight: bold;
+    font-size: 3.2rem;
+    margin-bottom: 4.8rem;
+    padding: 2.4rem;
+    width: 100%;
+  }
+  
+  .big-button:disabled {
+    opacity: .5;
+  }
+  
+  // Button
+  .button {
+    background:#8357c5;
+    border: none;
+    border-bottom: .3rem solid darken(#8357c5, 10%);
+    color: white;
+    font-weight: 500;
+    padding: 1.2rem;
+    width: 100%;
+    margin-top:15px;
+  }
+  
+  .button--link {
+    background: none;
+    border: none;
+    color: #a5afd7;
+    padding: 0;
+  }
+
+// #search{
+//   pointer-events: none;
+// }
+.td, th {
+  border: solid 1px black;
+}
+
+.td, th {
+  border-left: solid 1px black;
+}
+
+.tr {
+  border-bottom: solid 1px black;
+}
+
+.react-bs-table table td:hover {
+  overflow-wrap: break-word;
+  max-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
